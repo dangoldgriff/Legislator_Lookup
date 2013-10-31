@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap-responsive.css"rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <title>Capitol Hill Query</title>
+  </head>
+  <body>
+    <header class="headertext">This political look up was put together by <a href="http://dangriffin.site44.com/" target="_blank">Danny</a> and Jason courtesy of the Sunlight Foundation API. Enjoy!</header>
+    <div class="row-fluid">
+    <div class="container input-append">
+      <h1>Look up a legislator</h1>
+      <form id="get-zip">
+        <label for="zip">Enter your zip code:</label>
+        <input id="zip" type="text">
+        <button type="submit" class="btn btn-action">Look up</button>
+      </form>
+       </div>
+      <ul id="legislators">
+      </ul>
+
+
+      <div>
+        <div class="container input-append">
+        <h1>Look up a hearing</h1>
+
+      <form id="get-info">
+          <label for="location" class="miniheader">Enter your topic:</label>
+          <input id="hearing" type="text">
+          <button type="submit" class="btn btn-action">Look up</button>
+        </form>
+        </div>
+        <ul id="result">
+        </ul>
+    </div>
+  </div>
+  </body>
+</html>
