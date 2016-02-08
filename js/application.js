@@ -5,7 +5,7 @@ $(document).ready(function() {
    var vacation = $(this).closest('vacation');
    var amount = vacation.data('price');
    var price = $('<p>From $'+amount+'</p>');
-   vacaction.append(price);
+   vacation.append(price);
    $(this).closest('.vacation').append(price);
    $(this).remove();
  });
